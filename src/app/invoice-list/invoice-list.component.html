@@ -1,0 +1,57 @@
+<div style="width: 80%">
+    <h2>Invoice List</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <form action="" class="search-form">
+        <div class="form-group has-feedback">
+          <label for="search" class="sr-only">Search</label>
+          <input type="text" class="form-control" name="search" id="search" placeholder="search">
+          <span class="glyphicon glyphicon-search form-control-feedback"></span>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-3">
+      <input type="date" class="form-control" placeholder="date" />
+    </div>
+    <div class="col-md-3">
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+          All
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Due</a></li>
+          <li><a href="#">Paid</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Invoice No.</th>
+          <th>Date</th>
+          <th>Customer name</th>
+          <th>Phone number</th>
+          <th>Bill</th>
+          <th>Due</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>1/1/1992</td>
+          <td>John Doe</td>
+          <td>01111111111</td>
+          <td>100</td>
+          <td>20</td>
+          <td>Edit/Remove</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
